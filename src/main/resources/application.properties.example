@@ -1,0 +1,13 @@
+# Fichier d'exemple : application.properties.example
+# Copiez ce fichier vers 'application.properties' et renseignez vos vraies clés.
+
+server.port=8080
+
+# Configuration TMDB
+tmdb.api.token=${TMDB_API_TOKEN:votre_jeton_v4_ici}
+tmdb.api.baseUrl=https://api.themoviedb.org/3
+
+# Configuration Base de données
+spring.datasource.url=jdbc:postgresql://localhost:5432/mediatracker
+spring.datasource.username=postgres
+spring.datasource.password=votre_mot_de_passe
